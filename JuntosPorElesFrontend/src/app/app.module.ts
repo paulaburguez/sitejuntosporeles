@@ -14,6 +14,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { InformativoModule } from './modules/informativo/informativo.module';
 import { SobreModule } from './modules/sobre/sobre.module';
 import { JunteSeNosModule } from './modules/junte-se-nos/junte-se-nos.module';
+import { VoluntarioModule } from './modules/voluntario/voluntario.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { JunteSeNosModule } from './modules/junte-se-nos/junte-se-nos.module';
     NgxSpinnerModule,
     InformativoModule,
     SobreModule,
-    JunteSeNosModule
+    JunteSeNosModule,
+    VoluntarioModule
   ],
   providers: [
     {
