@@ -1,0 +1,30 @@
+<!--Page Header Start-->
+<div class="page-main-header">
+    <div class="main-header-left m-t-25">
+        <a [routerLink]="'/home'">
+            <img src="assets/images/icon.png" alt="" class="center" />
+        </a>
+    </div>
+    <div class="main-header-right m-r-15 m-t-25 color-red">
+        <div class="nav-center col">
+            <ul class="nav-menus m-l-50" [class.open]="open">
+                <li class="m-r-35" >
+                    <a (click)="quemSomos()">
+                        <b>Quem Somos</b>
+                    </a>
+                </li>
+                <li class="m-r-35" (click)="junteSeNos()">
+                    <b>Junte-se a nós</b>
+                </li>
+                <li class="m-r-35" (click)="cuidarDeles()">
+                    <b> Para cuidar bem deles</b>
+                </li>
+                <li class="m-r-35" (click)="adote()">
+                    <b>Adote</b>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!--Page Header Ends-->
