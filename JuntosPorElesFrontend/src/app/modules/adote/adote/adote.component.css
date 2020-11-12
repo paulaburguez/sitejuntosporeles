@@ -1,0 +1,10 @@
+.center {
+    padding-left: 25%;
+    width: 70%;
+    height: 60%;
+  }
+
+  .dropdown-menu-right{
+    display: block !important;
+    float: right !important;
+  }

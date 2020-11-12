@@ -5,15 +5,29 @@
   height: 100%;
 }
 
-
-li{
-    font-family:  'Yeserva One';
-    font-size: xx-large;
-    color: white;
+li {
+  font-family: "Yeserva One";
+  font-size: xx-large;
+  color: white;
+  cursor: pointer;
 }
 
 .page-main-header .main-header-left {
   padding-top: 45 !important;
   padding: 0 !important;
-  background-image: linear-gradient(to right, transparent 0%, transparent 60%, #ad2e2a 40%);
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent 60%,
+    #ad2e2a 40%
+  );
+}
+.a {
+  cursor: pointer;
+}
+
+.dropdown {
+  float: left;
+  list-style: none;
+  padding: 0;
 }

@@ -1,36 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~ngx-toastr/toastr';
+@import "~ngx-toastr/toastr";
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
 
 .switch input:checked + .switch-state {
-    background-color: #1DA1F2 !important;
+  background-color: #1da1f2 !important;
 }
 
 .page-main-header .main-header-right .switch-state {
-    background-color: transparent;
-    border: 1px solid #1DA1F2 !important;
+  background-color: transparent;
+  border: 1px solid #1da1f2 !important;
 }
 
 .page-main-header .main-header-right .switch-state {
-    background-color: transparent;
-    border: 1px solid #1DA1F2 !important;
+  background-color: transparent;
+  border: 1px solid #1da1f2 !important;
 }
 
 .page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu > li > a:hover {
-    color: #1DA1F2 !important;
+  color: #1da1f2 !important;
 }
 
-.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-submenu > li > a:hover {
-    color: #1DA1F2 !important;
+.page-wrapper
+  .page-body-wrapper
+  .page-sidebar
+  .sidebar-menu
+  .sidebar-submenu
+  > li
+  > a:hover {
+  color: #1da1f2 !important;
 }
 
 .page-wrapper .page-body-wrapper .page-body {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .page-wrapper .page-main-header {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .color-red {
-    background-color: #ad2e2a;
-  }
+  background-color: #ad2e2a;
+}
+
+.text-red {
+  color: #ad2e2a;
+}

@@ -1,7 +1,68 @@
 <div class="card">
   <div class="card-body">
-    <div class="row">
-      <img src="assets/images/icon.png" alt="" class="center" />
+    <div class="col-xl-12 m-b-20">
+      <owl-carousel-o [options]="carouselBasic">
+
+        <ng-container *ngFor="let img of carouselImages">
+          <ng-template carouselSlide [id]="img.id">
+            <img [src]="img.image" class='carousel-img'>
+          </ng-template>
+        </ng-container>
+
+      </owl-carousel-o>
     </div>
+
+    <div class="col col-xl-12 m-t-50 m-b-20">
+      <img src="assets/images/adocao-responsavel.png" class="m-l-50">
+    </div>
+    <div class="col-xl-12">
+      <h3 class="text-center">
+        <b>
+          O proposito do Juntos é conectar pessoas que amam animais, seja
+          protetores que trabalham sozinhos, grupos de pessoas, pessoas
+          que precisam divulgar um animal para adoção ou mesmo
+          interessados em adotar. <a class="text-danger">Saiba mais</a> sobre as responsabilidades dos
+          adotantes
+        </b>
+      </h3>
+    </div>
+    <div class="col col-xl-12 m-t-50 m-b-20">
+      <img src="assets/images/entrar-em-contato.png" class="m-l-50">
+    </div>
+
+    <div class="col-xl-12">
+      <h3 class="text-center">
+        <b>
+          Precisa divulgar um animal ? Precisa de Lar Temporário? Precisa
+          de ajuda em algum resgate?
+          Entre em contato conosco, te ajudamos a ajudar!
+        </b>
+      </h3>
+    </div>
+
+    <div class="col col-xl-12 m-t-50 m-b-20">
+      <img src="assets/images/CampanhasAnteriores.png" class="m-l-50">
+    </div>
+    <div class="row">
+      <div class="col-xl-4">
+        <h3 class="text-center">
+          <b>Titulo 1</b>
+        </h3>
+        <a><img src="assets/images/campanha.png" class="m-l-50"></a>
+      </div>
+      <div class="col-xl-4">
+        <h3 class="text-center">
+          <b>Titulo 2</b>
+        </h3>
+       <a><img src="assets/images/campanha.png" class="m-l-50"></a> 
+      </div>
+      <div class="col-xl-4">
+        <h3 class="text-center">
+          <b>Titulo 3</b>
+        </h3>
+        <a><img src="assets/images/campanha.png" class="m-l-50"></a> 
+      </div>
+    </div>
+
   </div>
 </div>
