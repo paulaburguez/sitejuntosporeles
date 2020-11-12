@@ -8,7 +8,7 @@
     <div class="main-header-right m-r-15 m-t-25 color-red">
         <div class="nav-center col">
             <ul class="nav-menus m-l-50" [class.open]="open">
-                <li class="m-r-35" >
+                <li class="m-r-35">
                     <a (click)="quemSomos()">
                         <b>Quem Somos</b>
                     </a>
@@ -22,8 +22,31 @@
                 <li class="m-r-35" (click)="adote()">
                     <b>Adote</b>
                 </li>
-            </ul>
+                <li class="onhover-dropdown m-l-10">
+                    <i class="fa fa-navicon"></i>
+                    <div class="onhover-show-div  dropdown-menu-right">
+                        <ul class="icon-lists navs-icon">
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-desktop"></i><span> Dashboard</span></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-blackboard"></i><span>
+                                        Widgets</span></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-package"></i><span> Base</span></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-notepad"></i><span> Forms</span></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="icon-harddrives"></i><span> Tables</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
 
+            </ul>
         </div>
     </div>
 </div>
